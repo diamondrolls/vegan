@@ -30,7 +30,55 @@ html{
           	overflow:scroll;   
 
 		  }
+ ul {
+       margin:0px;
+       padding:0px;
+       list-style: none;
+        position:relative;
+    }
+		   
+ul li {
+Position:relative;
+     width:100px; 
+	height:100px;
+    font-size:20px;
+    font-family: ariel;
+    Text-align:center;
+    }
 
+
+
+ul li ul li {
+    display: none;
+position:relative;
+}
+ul li:hover ul li {
+z-index:999;
+    display: block;
+Position:relative;
+Background-color:rgba(0,255,255,.7);
+}
+
+	.searchbar1{
+width:95px;
+height:95px;
+	background-image:url("https://i.pinimg.com/originals/0f/75/c8/0f75c80521022af00f232e8ba9508ec4.png");
+	background-size:95px 95px;
+	background-repeat:no-repeat;
+border-style:outset;
+border-color:rgba(0,355,355,1);
+border-radius:50%;
+background-color:white;
+	position:absolute;
+}
+
+.searchbar{
+width:490px;
+height:100px;
+border-style:outset;
+border-color:rgba(0,355,355,1);
+border-radius:50px;
+}
 		  .trials{
 		
           background-color:rgba(255, 100, 100, .6);
